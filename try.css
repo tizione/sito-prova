@@ -1,0 +1,71 @@
+.stretch{
+    background-color:rgb(0, 216, 0);
+    color:white;
+    padding:5px;
+    border:none;
+    font-size: 30px;
+    transition: padding 11s,
+    font-size 5s;
+}
+
+.stretch:hover{
+    padding:100px;
+    font-size: 150px;
+}
+
+.shadow-button{
+    background-color:rgb(79, 255, 79);
+    color:white;
+    border:none;
+    padding: 10px;
+    font-size: 30px;
+    transition: box-shadow 0.5s;
+}
+
+.shadow-button:active{
+    box-shadow: 5px 5px 10px rgba( 0 , 0 , 0 , 0.5); 
+}
+
+
+
+.one-button{
+    background-color: rgb(0, 213, 0);
+    color:white;
+    height: 50px;
+    width: 100px;  
+    border:none;     
+    font-size: 30px;
+    transition: width 0.20s;
+}
+
+.one-button:hover{
+    width:175px;
+}
+
+.two-button{
+    background-color: rgb(0, 213, 0);
+    color:white;
+    height: 50px;
+    width: 100px;  
+    border:none;     
+    font-size: 30px;
+    transition: width 0.5s;
+}
+
+.two-button:hover{
+    width:300px;
+}
+
+.three-button{
+    background-color: rgb(0, 213, 0);
+    color:white;
+    height: 50px;
+    width: 100px;  
+    border:none;     
+    font-size: 30px;
+    transition: width 1s;
+}
+
+.three-button:hover{
+    width:500px;
+}
